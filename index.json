@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T04:22:18.856Z",
+  "generatedAt": "2026-10-11T06:10:12.500Z",
   "source": "index.txt",
   "plugins": [
     {
@@ -28,19 +28,18 @@
       "manifest": {
         "name": "倒数日配置工具",
         "icon": "icon.png",
-        "version": "2.1",
+        "version": "3.0",
         "description": "在AstroBox中快速添加和修改倒数日相关信息",
         "author": "小鱼yuzifu",
         "website": "https://github.com/sf-yuzifu/Daymatter-AstroBox-Plugin",
         "entry": "daymatter_astrobox_v2_plugin.wasm",
-        "wasi_version": 2,
-        "api_level": 2,
+        "wasi_version": 3,
+        "api_level": 4,
         "permissions": [
           "interconnect",
           "thirdpartyapp",
           "device",
-          "register_interconnect_recv",
-          "dialog"
+          "register_interconnect_recv"
         ],
         "additional_files": []
       }
