@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T04:38:20.607Z",
+  "generatedAt": "2026-10-12T17:26:26.147Z",
   "source": "index.txt",
   "plugins": [
     {
@@ -28,7 +28,7 @@
       "manifest": {
         "name": "倒数日配置工具",
         "icon": "icon.png",
-        "version": "3.1",
+        "version": "3.2",
         "description": "在AstroBox中快速添加和修改倒数日相关信息",
         "author": "小鱼yuzifu",
         "website": "https://github.com/sf-yuzifu/Daymatter-AstroBox-Plugin",
