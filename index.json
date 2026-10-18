@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T21:58:57.068Z",
+  "generatedAt": "2026-10-18T03:19:22.744Z",
   "source": "index.txt",
   "plugins": [
     {
@@ -643,7 +643,7 @@
       "manifest": {
         "name": "Kovela",
         "icon": "icon.png",
-        "version": "1.9.2",
+        "version": "1.9.3",
         "description": "验证购买并为 mi-vela 应用安全激活",
         "author": "Komorebi",
         "website": "https://kovela.komoridevs.icu",
