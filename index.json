@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T03:19:22.744Z",
+  "generatedAt": "2026-10-18T04:41:08.460Z",
   "source": "index.txt",
   "plugins": [
     {
@@ -832,6 +832,31 @@
           "Configure-Codex.ps1",
           "Review-Codex-Hooks.ps1"
         ]
+      }
+    },
+    {
+      "repo": "https://raw.githubusercontent.com/KomoriDev/kovela-watermelon/refs/heads/main/",
+      "folder": "plugin/dist/watermelon",
+      "manifest": {
+        "name": "合成大西瓜自定义工具",
+        "icon": "icon.png",
+        "version": "1.0.0",
+        "description": "为手环上的合成大西瓜更换水果皮肤",
+        "author": "KomoriDev",
+        "website": "https://github.com/KomoriDev/kovela-watermelon",
+        "entry": "kovela_watermelon.wasm",
+        "wasi_version": 3,
+        "api_level": 4,
+        "permissions": [
+          "network",
+          "device",
+          "interconnect",
+          "thirdpartyapp",
+          "register_interconnect_recv",
+          "timer",
+          "account.profile"
+        ],
+        "additional_files": []
       }
     }
   ]
